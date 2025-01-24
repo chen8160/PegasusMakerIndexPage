@@ -1,0 +1,19 @@
+{
+  "links": [
+    {
+      "name": "Google Drive",
+      "url": "https://drive.google.com",
+      "icon": "https://www.gstatic.com/images/branding/product/2x/drive_2020q4_48dp.png"
+    },
+    {
+      "name": "Trello Board",
+      "url": "https://trello.com",
+      "icon": "https://cdn.worldvectorlogo.com/logos/trello.svg"
+    },
+    {
+      "name": "Studio Calendar",
+      "url": "https://calendar.google.com",
+      "icon": "https://www.gstatic.com/images/branding/product/2x/calendar_2020q4_48dp.png"
+    }
+  ]
+}
