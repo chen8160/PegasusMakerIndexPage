@@ -70,6 +70,61 @@ header h1 {
     color: var(--primary-color);
 }
 
+.admin-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background: var(--card-color);
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+button[type="submit"] {
+    background: var(--primary-color);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.2s ease;
+}
+
+button[type="submit"]:hover,
+.login-button:hover {
+    background: var(--hover-color);
+}
+
+.login-button {
+    background: var(--primary-color);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.2s ease;
+    margin-bottom: 1.5rem;
+}
+
 @media (max-width: 768px) {
     body {
         padding: 1rem;
@@ -77,5 +132,10 @@ header h1 {
     
     .links-grid {
         grid-template-columns: 1fr;
+    }
+
+    .admin-container {
+        margin: 1rem;
+        padding: 1rem;
     }
 }
